@@ -1,0 +1,144 @@
+  :root {
+    --main-color: #4c74ec;;
+    --text-color: #fff;
+    --bg-color: #1e1c2a;
+    --big-font: 4rem;
+    --h2-font: 2.25rem;
+    --p-font: 0.9rem;
+  } 
+
+  header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+    background: var(--bg-color);
+  }
+
+  section{
+    padding: 120px 150px;
+    /* background-color: var(--background);
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%); */
+  }
+
+  .btn:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 0.4s;
+  }
+
+  .service-head{
+    font-size: 3rem;
+  }
+
+  .heading{
+    text-align: center;
+  }
+  .heading span{
+  color: var(--primary);
+  font-weight: 600;
+  }
+  .heading h2{
+    /* font-size: var(--h2-font); */
+    font-size: 1.5rem;
+    color: #575656;
+  } 
+
+  .service-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    grid-gap: 3.5rem;
+    margin-top: 4rem;
+  }
+
+  .s-box{
+    text-align: center;
+    padding: 20px 30px;
+    /* background-color: #fdf5f1; */
+    background-color: #d2e2fd;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .s-box:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  .s-box img{
+    width: 90px;
+  }
+  .s-box h3{
+    margin: 4px 0 10px;
+    color: var(--main-color);
+    font-size: 1.2rem;
+  }
+  .s-box p{
+    line-height: 1.7;
+  }
+   
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+   
+  @media (max-width: 1140px) {
+    section{
+      padding: 50px 8%;
+    }
+    #menu-icon{
+      color: var(--text-color);
+      display: initial;
+    }
+    header .navbar{
+      position: absolute;
+      top: -400px;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background: #2b2640;
+      transition: 0.3s;
+    }
+    header .navbar.active{
+      top: 70px;
+    }
+    .navbar a{
+      padding: 1.5rem;
+      display: block;
+    }
+    .col{
+      width: 50%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    header{
+      padding: 10px 16px;
+    }
+    .home{
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    .about{
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    .about-img{
+      order: 2;
+    }
+    section{
+      padding: 100px 7%;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .col{
+      width: 100%;
+    }
+  }
