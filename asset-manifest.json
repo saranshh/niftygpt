@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/niftygpt/static/css/main.5ee45df5.css",
+    "main.js": "/niftygpt/static/js/main.e677e2b3.js",
+    "static/media/hero-trade.png": "/niftygpt/static/media/hero-trade.8708af1ed673a8d56a9a.png",
+    "static/media/stocks-1.png": "/niftygpt/static/media/stocks-1.52bd6ac45cf1f076c8b6.png",
+    "static/media/analysis.png": "/niftygpt/static/media/analysis.821be83414127bc1b320.png",
+    "static/media/risk.png": "/niftygpt/static/media/risk.ed252959952c93b7eca2.png",
+    "static/media/trading-algo.png": "/niftygpt/static/media/trading-algo.0e0e40128773abe92675.png",
+    "static/media/avatar-3.svg": "/niftygpt/static/media/avatar-3.605f4f9b2d464df4897817a6278e52d7.svg",
+    "static/media/featured-1.png": "/niftygpt/static/media/featured-1.da80ab92017a14f66e8c.png",
+    "static/media/featured-2.png": "/niftygpt/static/media/featured-2.16fb06edd118714d8a10.png",
+    "static/media/featured-3.png": "/niftygpt/static/media/featured-3.697d7a67344e5e528577.png",
+    "static/media/avatar-1.svg": "/niftygpt/static/media/avatar-1.e18c937d0a33154687422e5da407f480.svg",
+    "index.html": "/niftygpt/index.html",
+    "main.5ee45df5.css.map": "/niftygpt/static/css/main.5ee45df5.css.map",
+    "main.e677e2b3.js.map": "/niftygpt/static/js/main.e677e2b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ee45df5.css",
+    "static/js/main.e677e2b3.js"
+  ]
+}
