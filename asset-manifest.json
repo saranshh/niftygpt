@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ee45df5.css",
-    "main.js": "/static/js/main.992553f1.js",
+    "main.css": "/static/css/main.7b4184b8.css",
+    "main.js": "/static/js/main.93caa0ac.js",
     "static/media/hero-trade.png": "/static/media/hero-trade.8708af1ed673a8d56a9a.png",
     "static/media/stocks-1.png": "/static/media/stocks-1.52bd6ac45cf1f076c8b6.png",
     "static/media/analysis.png": "/static/media/analysis.821be83414127bc1b320.png",
@@ -13,11 +13,11 @@
     "static/media/featured-3.png": "/static/media/featured-3.697d7a67344e5e528577.png",
     "static/media/avatar-1.svg": "/static/media/avatar-1.e18c937d0a33154687422e5da407f480.svg",
     "index.html": "/index.html",
-    "main.5ee45df5.css.map": "/static/css/main.5ee45df5.css.map",
-    "main.992553f1.js.map": "/static/js/main.992553f1.js.map"
+    "main.7b4184b8.css.map": "/static/css/main.7b4184b8.css.map",
+    "main.93caa0ac.js.map": "/static/js/main.93caa0ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ee45df5.css",
-    "static/js/main.992553f1.js"
+    "static/css/main.7b4184b8.css",
+    "static/js/main.93caa0ac.js"
   ]
 }
