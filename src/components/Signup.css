@@ -30,6 +30,10 @@
     margin: 2rem 0;
 }
 
+.primary-1{
+    color: var(--primary);
+}
+
 @media screen and (max-width:940px) {
     .signup .right{
         padding: 1.5rem;

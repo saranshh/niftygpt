@@ -79,7 +79,7 @@ const Hero = () => {
                         <p>Unlock endless possibilities........</p>
                         <h1>Revolutionize A<span className='primary'>i</span> Powered
                             Trading on Mobile</h1>
-                        <p>Buy, Sell, and store hundreds of stocks effortlessly</p>
+                        <p>Subscribe to get free trial now!</p>
                         <div className='input-container'>
                             <input
                                 type='text'

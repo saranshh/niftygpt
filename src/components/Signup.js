@@ -81,8 +81,9 @@ const Signup = () => {
 
                 {/* right */}
                 <div className='right'>
-                    <h2>Earn passive income with trading.</h2>
-                    <p>Earn up to 12% annual rewards on 30+ digital assets. Simply hold your assets in the app to automatically earn rewards at the end of each month with no lockups and no limits.</p>
+                    <h2>Get free signals on your mobile with NiftyGPT.<span className='primary-1'>ai</span></h2>
+                    <p>Subscribe to niftygpt.ai today and unlock a world of cutting-edge financial products and ProTips designed 
+                    to elevate your trading experience. Sign up now to stay ahead in the game!</p>
                     <div className='input-container'>
                             <input
                                 type='text'

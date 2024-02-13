@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' 
 import {FaFacebook, FaGithub, FaLinkedin, FaTelegram, FaTwitter} from 'react-icons/fa'
 import './Footer.css'
 
@@ -38,12 +38,12 @@ const Footer = () => {
                 <div className='col'>
                     <h5>Social</h5>
                     <span className='bar'> </span>
-                        <a href='/http://facebook.com/niftygpt'><FaFacebook className='icon'/></a>
-                        <a href='/https://x.com/Niftygpt_ai'><FaTwitter className='icon'/></a>
-                        <a href='/https://www.linkedin.com/company/phoenix-fintech' target='_blank'><FaLinkedin className='icon'/></a>
-                        <a href='/https://t.me/niftygpt_ai'><FaTelegram className='icon'/></a>
+                        <a href='http://facebook.com/niftygpt' target='_blank'><FaFacebook className='icon'/></a>
+                        <a href='https://x.com/Niftygpt_ai' target='_blank'><FaTwitter className='icon'/></a>
+                        <a href='https://www.linkedin.com/company/phoenix-fintech' target='_blank'><FaLinkedin className='icon'/></a>
+                        <a href='https://t.me/niftygpt_ai' target='_blank'><FaTelegram className='icon'/></a>
                 </div>
-            </div>
+            </div> 
             
         </div>
     )

@@ -8,7 +8,7 @@ const Featured = () => {
   return (
    <div className="featured">
      <div className="skills">
-      <h2 className='heading'>Why niftygpt.<span className='primary-featured'>ai</span>?</h2>
+      <h2 className='heading'>Why NiftyGPT.<span className='primary-featured'>ai</span>?</h2>
       <div className="skill-row">
         <img className="code-img" src={featured1} alt="skill-img" />
         <h3>Value Broker</h3>

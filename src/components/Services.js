@@ -24,7 +24,7 @@ const Services = () => {
 
         <div className="s-box">
           <img src={Trading} alt="s2-img" />
-          <h3>Algorithmic Trading</h3>
+          <h3>Algo-Trading</h3>
           <p>
           Optimize your trading strategies with our sophisticated algorithms. Experience swift
            and strategic order execution, eliminating human biases and enhancing overall performance.
